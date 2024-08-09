@@ -1,0 +1,4 @@
+aws sns subscribe \
+    --topic-arn="arn:aws:sns:us-east-1:992382527501:billing-alarm" \
+    --protocol=email \
+    --notification-endpoint=katlegotsela19@gmail.com
